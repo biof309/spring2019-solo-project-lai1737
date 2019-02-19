@@ -1,5 +1,5 @@
 =========
-myproject
+Cool Project Name
 =========
 
 
