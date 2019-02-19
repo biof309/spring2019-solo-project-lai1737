@@ -1,5 +1,5 @@
 =========
- Can't get any better Project Name
+ FANTASTIC Project Name
 =========
 
 
