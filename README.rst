@@ -1,5 +1,5 @@
 =========
-Soso Project Name
+ FANTASTIC Project Name
 =========
 
 
