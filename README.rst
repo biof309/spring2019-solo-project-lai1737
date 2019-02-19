@@ -1,5 +1,5 @@
 =========
-Cooler Project Name
+Coolest Project Name
 =========
 
 
