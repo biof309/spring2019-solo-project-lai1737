@@ -1,5 +1,5 @@
 =========
-Coolest Project Name
+Soso Project Name
 =========
 
 
