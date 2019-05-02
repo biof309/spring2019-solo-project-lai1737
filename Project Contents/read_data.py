@@ -15,10 +15,12 @@ select_country = master['country'].isin(master_mean_country_year.index.tolist() 
 
 master_select_country = master[select_country]
 
-sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
+test = sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
 plt.xlabel('year')
 plt.ylabel('Suicide Rate per 100k People')
 plt.title('Suicide Rate per 100k People\n'
           'in Lithuania, Sri Lanka, Russian Federation, and the United States')
 plt.legend()
-plt.show()
+fig = test.get_figure()
+
+fig.savefig("Project Contents/Trend Graphs.png")

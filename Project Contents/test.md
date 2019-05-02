@@ -37,10 +37,3 @@ plt.show()
 ```
 
 ##Seaborn Graph
-sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
-plt.xlabel('year')
-plt.ylabel('Suicide Rate per 100k People')
-plt.title('Suicide Rate per 100k People\n'
-          'in Lithuania, Sri Lanka, Russian Federation, and the United States')
-plt.legend()
-plt.show()
