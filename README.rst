@@ -1,9 +1,9 @@
 =========
- UNBEATABLE Project Name
+Suicide Rates in X Countries
 =========
 
 
-Add a short description here!
+The study question of this project is to identify the trends of suicide rates over years for x countries, and compare the trends to that of the US.
 
 
 Description
