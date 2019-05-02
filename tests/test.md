@@ -1,7 +1,7 @@
 # Project: Trends of Suicide Rate 3 High-Rate Countries compared to United States
 
 ##Project Question
-The study question of this project is to identify the trends of suicide rates over years for x countries, and compare the trends to that of the US.
+The study question of this project is to identify the trends of suicide rates over years for 3 countries (Lithuania, Sri Lanka, Russian Federation), and compare the trends to that of the US.
 
 ##Method
 * First identify countries with the highest average suicide rates and then select the top 3 to compare trends with the US.
@@ -40,3 +40,10 @@ plt.show()
 ```
 
 ##Seaborn Graph
+test = sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
+plt.xlabel('year')
+plt.ylabel('Suicide Rate per 100k People')
+plt.title('Suicide Rate per 100k People\n'
+          'in Lithuania, Sri Lanka, Russian Federation, and the United States')
+plt.legend()
+plt.show()
