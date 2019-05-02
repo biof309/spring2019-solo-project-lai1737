@@ -1,4 +1,4 @@
-# Project: Trends of Suicide Rate in x Countries compared to United States
+# Project: Trends of Suicide Rate 3 High-Rate Countries compared to United States
 
 ##Project Question
 The study question of this project is to identify the trends of suicide rates over years for x countries, and compare the trends to that of the US.

@@ -1,9 +1,9 @@
 =========
-Suicide Rates in X High-Rate Countries Compared to the United States
+Suicide Rates in 3 High-Rate Countries Compared to the United States
 =========
 
 
-The study question of this project is to identify the trends of suicide rates over years for x countries, and compare the trends to that of the US.
+The study question of this project is to identify the trends of suicide rates over years for 3 high-rate countries (Lithuania, Sri Lanka, Russian Federation), and compare the trends to that of the US.
 
 
 Description
