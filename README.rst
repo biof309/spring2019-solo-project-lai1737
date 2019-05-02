@@ -1,5 +1,5 @@
 =========
-Suicide Rates in X Countries
+Suicide Rates in X High-Rate Countries Compared to the United States
 =========
 
 
