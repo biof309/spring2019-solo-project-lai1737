@@ -42,10 +42,7 @@ select_country = master[&#39;country&#39;].isin(master_mean_country_year.index.t
 
 master_select_country = master[select_country]
 
-sns.boxplot(&#39;country&#39;, &#39;suicides/100k pop&#39;, data=master_select_country)
-plt.show()
-
-test = sns.lineplot(x=&#39;year&#39;, y=&#39;suicides/100k pop&#39;, hue=&#39;country&#39;, data=master_select_country)
+sns.lineplot(x=&#39;year&#39;, y=&#39;suicides/100k pop&#39;, hue=&#39;country&#39;, data=master_select_country)
 plt.xlabel(&#39;year&#39;)
 plt.ylabel(&#39;Suicide Rate per 100k People&#39;)
 plt.title(&#39;Suicide Rate per 100k People\n&#39;
@@ -54,7 +51,7 @@ plt.legend()
 plt.show()</code></pre>
 </div><div id="seaborn-graph" class="slide section level2">
 <h2>Seaborn Graph</h2>
-<p>test = sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country) plt.xlabel('year') plt.ylabel('Suicide Rate per 100k People') plt.title('Suicide Rate per 100k People' 'in Lithuania, Sri Lanka, Russian Federation, and the United States') plt.legend() plt.show()</p>
+<p>sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country) plt.xlabel('year') plt.ylabel('Suicide Rate per 100k People') plt.title('Suicide Rate per 100k People' 'in Lithuania, Sri Lanka, Russian Federation, and the United States') plt.legend() plt.show()</p>
 </div>
 </body>
 </html>
