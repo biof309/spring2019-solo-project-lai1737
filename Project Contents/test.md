@@ -37,3 +37,4 @@ plt.show()
 ```
 
 ##Seaborn Graph
+![alt text](https://github.com/biof309/spring2019-solo-project-lai1737/blob/master/Project%20Contents/Trend%20Graphs.png)
