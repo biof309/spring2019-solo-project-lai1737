@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-master = pd.read_csv('master.csv')
+master = pd.read_csv('Project Contents/master.csv')
 
 master.head()
 
