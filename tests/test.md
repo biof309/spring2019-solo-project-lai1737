@@ -19,7 +19,8 @@ master = pd.read_csv('master.csv')
 
 master.head()
 
-master_mean_country_year = pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).sort_index(by=['suicides/100k pop'], ascending=False)[0:3]
+master_mean_country_year = pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).sort_values(by=['suicides/100k pop'], ascending=False)[0:3]
+
 ## The highest average suicide rates are in countries: Lithuania, Sri Lanka, and Russian Federation
 
 select_country = master['country'].isin(master_mean_country_year.index.tolist() + ['United States'])
