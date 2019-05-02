@@ -1,4 +1,4 @@
-# Project: Trend of Suicide Rate in x Countries compared to United States
+# Project: Trends of Suicide Rate in x Countries compared to United States
 
 ##Project Question
 The study question of this project is to identify the trends of suicide rates over years for x countries, and compare the trends to that of the US.
@@ -10,32 +10,32 @@ The study question of this project is to identify the trends of suicide rates ov
 
 ##Importing package and data
 ```
+##Importing package and data
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.cross_validation import train_test_split
 import seaborn as sns
-import numpy as np
 
 master = pd.read_csv('master.csv')
 
 master.head()
 
-##Preliminary frequency table to see what generations there are
-pd.crosstab(index=master['generation'], columns='count')
+master_mean_country_year = pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).sort_index(by=['suicides/100k pop'], ascending=False)[0:3]
+## The highest average suicide rates are in countries: Lithuania, Sri Lanka, and Russian Federation
 
-### Filter for "Millenials"
-master_mil = master[master['generation']=='Millenials']
-master_mil_1114 = master_mil[(master_mil['year'] >= 2011) & (master_mil['year'] <= 2014)]
+select_country = master['country'].isin(master_mean_country_year.index.tolist() + ['United States'])
 
-master_mil.columns
+master_select_country = master[select_country]
 
-pd.crosstab(index=master_mil['year'], columns='count')
+sns.boxplot('country', 'suicides/100k pop', data=master_select_country)
+plt.show()
 
-plt.plot('year', 'gdp_per_capita ($)', data=master_mil_1114[master_mil['country']=='United States'], color='skyblue', label='United States')
-plt.plot('year', 'gdp_per_capita ($)', data=master_mil_1114[master_mil['country']=='Canada'], color='red', label='Canada')
-plt.plot('year', 'gdp_per_capita ($)', data=master_mil_1114[master_mil['country']=='United Kingdom'], color='black', label='United Kingdom')
+test = sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
+plt.xlabel('year')
+plt.ylabel('Suicide Rate per 100k People')
+plt.title('Suicide Rate per 100k People\n'
+          'in Lithuania, Sri Lanka, Russian Federation, and the United States')
 plt.legend()
+plt.show()
 ```
 
 ##Seaborn Graph
-plt.show()
