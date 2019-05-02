@@ -15,10 +15,7 @@ select_country = master['country'].isin(master_mean_country_year.index.tolist() 
 
 master_select_country = master[select_country]
 
-sns.boxplot('country', 'suicides/100k pop', data=master_select_country)
-plt.show()
-
-test = sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
+sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
 plt.xlabel('year')
 plt.ylabel('Suicide Rate per 100k People')
 plt.title('Suicide Rate per 100k People\n'
