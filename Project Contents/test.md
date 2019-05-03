@@ -1,14 +1,14 @@
 # Project: Trends of Suicide Rate 3 High-Rate Countries compared to United States
 
-##Project Question
+## Project Question
 The study question of this project is to identify the trends of suicide rates over years for 3 countries (Lithuania, Sri Lanka, Russian Federation), and compare the trends to that of the US.
 
-##Method
+## Method
 * First identify countries with the highest average suicide rates and then select the top 3 to compare trends with the US.
 
 * With Seaborn package, draw trends of suicide rates / 100k in these countries.
 
-##Importing package and data
+## Importing package and data
 ```
 ##Importing package and data
 import pandas as pd
@@ -42,10 +42,10 @@ plt.legend()
 plt.show()
 ```
 
-##Seaborn Graph
+## Seaborn Graph
 ![](https://raw.githubusercontent.com/biof309/spring2019-solo-project-lai1737/master/Project%20Contents/Trend%20Graphs.png)
 
-##If I had more time... or sometime in the future...
+## If I had more time... or sometime in the future...
 1. See if the trends are decreasing significantly
 2. See if the trend for the US is significant at all
 3. Look at more countries
