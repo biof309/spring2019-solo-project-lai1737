@@ -44,3 +44,9 @@ plt.show()
 
 ##Seaborn Graph
 ![](https://raw.githubusercontent.com/biof309/spring2019-solo-project-lai1737/master/Project%20Contents/Trend%20Graphs.png)
+
+##If I had more time... or sometime in the future...
+1. See if the trends are decreasing significantly
+2. See if the trend for the US is significant at all
+3. Look at more countries
+4. Predict future trends for country of interest
