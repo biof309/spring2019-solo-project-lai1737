@@ -11,6 +11,10 @@ Description
 
 A longer description of your project goes here...
 
+Launch Binder
+===========
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biof309/spring2019-solo-project-lai1737.git/master)
+The contents, especially the notebook is located in the "Project Contents" folder.
 
 Note
 ====
