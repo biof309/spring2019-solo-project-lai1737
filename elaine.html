@@ -30,14 +30,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-master = pd.read_csv(&#39;master.csv&#39;)
+master = pd.read_csv(&#39;Project Contents/master.csv&#39;)
 
 master.head()
+master.columns
 
 master_mean_country_year = 
 pd.DataFrame(master.groupby([&#39;country&#39;])[&#39;suicides/100k pop&#39;].mean()).
 sort_values(by=[&#39;suicides/100k pop&#39;], ascending=False)[0:3]
-
 ## The highest average suicide rates are in countries: Lithuania, Sri Lanka, 
 and Russian Federation
 
@@ -46,15 +46,19 @@ select_country = master[&#39;country&#39;].isin(master_mean_country_year.index.t
 
 master_select_country = master[select_country]
 
-sns.lineplot(x=&#39;year&#39;, y=&#39;suicides/100k pop&#39;, 
-hue=&#39;country&#39;, data=master_select_country)
-
+test = sns.lineplot(x=&#39;year&#39;, y=&#39;suicides/100k pop&#39;, hue=&#39;country&#39;, 
+data=master_select_country)
 plt.xlabel(&#39;year&#39;)
 plt.ylabel(&#39;Suicide Rate per 100k People&#39;)
 plt.title(&#39;Suicide Rate per 100k People\n&#39;
-          &#39;in Lithuania, Sri Lanka, Russian Federation, and the United States&#39;)
+          &#39;in Lithuania, Sri Lanka, 
+          Russian Federation, 
+          and the United States&#39;)
+          
 plt.legend()
-plt.show()</code></pre>
+fig = test.get_figure()
+
+fig.savefig(&quot;Project Contents/Trend Graphs.png&quot;)</code></pre>
 </div><div id="seaborn-graph" class="slide section level2">
 <h2>Seaborn Graph</h2>
 <div class="figure">

@@ -7,6 +7,7 @@ import seaborn as sns
 master = pd.read_csv('Project Contents/master.csv')
 
 master.head()
+master.columns
 
 master_mean_country_year = pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).sort_values(by=['suicides/100k pop'], ascending=False)[0:3]
 ## The highest average suicide rates are in countries: Lithuania, Sri Lanka, and Russian Federation
