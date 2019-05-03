@@ -19,15 +19,21 @@ master = pd.read_csv('master.csv')
 
 master.head()
 
-master_mean_country_year = pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).sort_values(by=['suicides/100k pop'], ascending=False)[0:3]
+master_mean_country_year = 
+pd.DataFrame(master.groupby(['country'])['suicides/100k pop'].mean()).
+sort_values(by=['suicides/100k pop'], ascending=False)[0:3]
 
-## The highest average suicide rates are in countries: Lithuania, Sri Lanka, and Russian Federation
+## The highest average suicide rates are in countries: Lithuania, Sri Lanka, 
+and Russian Federation
 
-select_country = master['country'].isin(master_mean_country_year.index.tolist() + ['United States'])
+select_country = master['country'].isin(master_mean_country_year.index.tolist() 
++ ['United States'])
 
 master_select_country = master[select_country]
 
-sns.lineplot(x='year', y='suicides/100k pop', hue='country', data=master_select_country)
+sns.lineplot(x='year', y='suicides/100k pop', 
+hue='country', data=master_select_country)
+
 plt.xlabel('year')
 plt.ylabel('Suicide Rate per 100k People')
 plt.title('Suicide Rate per 100k People\n'
@@ -37,4 +43,4 @@ plt.show()
 ```
 
 ##Seaborn Graph
-![alt text](https://github.com/biof309/spring2019-solo-project-lai1737/blob/master/Project%20Contents/Trend%20Graphs.png)
+![](https://raw.githubusercontent.com/biof309/spring2019-solo-project-lai1737/master/Project%20Contents/Trend%20Graphs.png)
