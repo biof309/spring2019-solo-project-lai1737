@@ -1,5 +1,5 @@
-=========
-Suicide Rates in 3 High-Rate Countries Compared to the United States
+
+Suicide Rates in 3 High-Rate Countries Compared to the United States  
 =========
 
 
