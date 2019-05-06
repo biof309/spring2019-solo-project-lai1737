@@ -23,8 +23,7 @@ Using techniques and resources learned in class over the semester, I:
 
 Launch Binder
 ===========
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/biof309/spring2019-solo-project-lai1737.git/master
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biof309/spring2019-solo-project-lai1737/master)
 
 The contents, especially the notebook is located in the "Project Contents" folder.
 
