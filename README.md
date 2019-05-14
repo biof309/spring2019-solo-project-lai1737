@@ -12,7 +12,7 @@ Description
 
 The dataset is obtained from www.Kaggle.com/datasets under "Suicide Rates Overview 1985 to 2016".
 Detailed description of how the dataset is retrieved is described in the Markdown file and Notebook in the Project Contents folder.
-The project aims to compare the suicide rate during years with available data of the United States and compare it to that of the 3 highest suicide rate countries.
+The project aims to compare the suicide rate during years with available data of the United States and compare it to that of the 3 highest suicide rate countries.  
 Using techniques and resources learned in class over the semester, I:
 1. Identified a dataset (from Kaggle)
 2. Download dataset with Kaggle API
