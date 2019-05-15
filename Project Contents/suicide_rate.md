@@ -22,8 +22,8 @@ This compiled dataset pulled from four other datasets linked by time and place, 
 * World Health Organization. (2018). Suicide prevention.  
 
 **Inspiration**  
-
 Suicide Prevention.
+
 ---------------------------------------------------------------------------------------------------------------
 
 ## Method
