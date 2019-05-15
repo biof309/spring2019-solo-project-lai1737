@@ -1,12 +1,37 @@
 # Project: Trends of Suicide Rate 3 High-Rate Countries compared to United States
 
+
+==================================================================================
+
 ## Project Question
 The study question of this project is to identify the trends of suicide rates over years for 3 countries (Lithuania, Sri Lanka, Russian Federation), and compare the trends to that of the US.
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Dataset
+The dataset is obtained from www.Kaggle.com/datasets under "Suicide Rates Overview 1985 to 2016".
+
+### Description from Kaggle Website:
+**Content**  
+
+This compiled dataset pulled from four other datasets linked by time and place, and was built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum.  
+
+**References**
+* United Nations Development Program. (2018). Human development index (HDI).
+* World Bank. (2018). World development indicators: GDP (current US$) by country:1985 to 2016.
+* [Szamil]. (2017). Suicide in the Twenty-First Century [dataset].
+* World Health Organization. (2018). Suicide prevention.  
+
+**Inspiration**  
+
+Suicide Prevention.
+---------------------------------------------------------------------------------------------------------------
 
 ## Method
 * First identify countries with the highest average suicide rates and then select the top 3 to compare trends with the US.
 
 * With Seaborn package, draw trends of suicide rates / 100k in these countries.
+--------------------------------------------------------------------------------------------------------------
 
 ## Importing package and data
 ```
@@ -48,7 +73,7 @@ fig.savefig("Project Contents/Trend Graphs.png")
 
 ## Seaborn Graph
 ![](https://raw.githubusercontent.com/biof309/spring2019-solo-project-lai1737/master/Project%20Contents/Trend%20Graphs.png)
-
+-------------------------------------------------------------------------------------------------------------------------
 ## If I had more time... or sometime in the future...
 1. See if the trends are decreasing significantly
 2. See if the trend for the US is significant at all
