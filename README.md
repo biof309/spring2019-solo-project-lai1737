@@ -10,7 +10,7 @@ This project serves as a final project of the Spring 2019 FAES BIOF309 class.
 Description
 ===========
 
-The dataset is obtained from www.Kaggle.com/datasets under "Suicide Rates Overview 1985 to 2016".
+The dataset is obtained from www.Kaggle.com/datasets under "Suicide Rates Overview 1985 to 2016".  
 Detailed description of how the dataset is retrieved is described in the Notebook in the Project Contents folder.
 The project aims to compare the suicide rate during years with available data of the United States and compare it to that of the 3 highest suicide rate countries.  
 Using techniques and resources learned in class over the semester, I:
@@ -18,8 +18,8 @@ Using techniques and resources learned in class over the semester, I:
 2. Download dataset with Kaggle API
 3. Imported and cleaned data with Python (Pandas)
 4. Graph results using Seaborn package
-5. Made a. markdown document, b. Python Notebook, c. HTML Slides, d. Binder documentations of results
-6. Upload all documentations to GitHub repository using PyCharm with version control features
+5. Made a. markdown document, b. Python Notebook, c. HTML Slides, d. Binder documentations of the results
+6. Upload all documentations to GitHub repository using PyCharm with version control features, as well as command line.
 
 Launch Binder
 ===========
