@@ -1,7 +1,7 @@
 # Project: Trends of Suicide Rate 3 High-Rate Countries compared to United States
 
 
-==================================================================================
+---------------------------------------------------------------------------------------------------
 
 ## Project Question
 The study question of this project is to identify the trends of suicide rates over years for 3 countries (Lithuania, Sri Lanka, Russian Federation), and compare the trends to that of the US.
